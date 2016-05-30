@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C287E9C61CCA438B00466F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9C51CCA438B00466F74 /* AppDelegate.swift */; };
+		C287E9CB1CCA438B00466F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287E9C91CCA438B00466F74 /* Main.storyboard */; };
+		C287E9CD1CCA438B00466F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C287E9CC1CCA438B00466F74 /* Assets.xcassets */; };
+		C287E9D01CCA438B00466F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287E9CE1CCA438B00466F74 /* LaunchScreen.storyboard */; };
+		C287E9D81CCA5A1500466F74 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9D71CCA5A1500466F74 /* Model.swift */; };
+		C287E9DA1CCA5A2700466F74 /* HandleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9D91CCA5A2700466F74 /* HandleData.swift */; };
+		C287E9DC1CCA5A4800466F74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9DB1CCA5A4800466F74 /* DetailViewController.swift */; };
+		C287E9DE1CCA5A5600466F74 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9DD1CCA5A5600466F74 /* ListViewController.swift */; };
+		C287E9E01CCA5AF200466F74 /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287E9DF1CCA5AF200466F74 /* ContactViewCell.swift */; };
+		C287EA181CCA653800466F74 /* contact.plist in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E21CCA653800466F74 /* contact.plist */; };
+		C287EA191CCA653800466F74 /* 乔春晓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E31CCA653800466F74 /* 乔春晓.jpg */; };
+		C287EA1A1CCA653800466F74 /* 于成庆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E41CCA653800466F74 /* 于成庆.jpg */; };
+		C287EA1B1CCA653800466F74 /* 傅芝珍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E51CCA653800466F74 /* 傅芝珍.jpg */; };
+		C287EA1C1CCA653800466F74 /* 刘亚彬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E61CCA653800466F74 /* 刘亚彬.jpg */; };
+		C287EA1D1CCA653800466F74 /* 刘伟宁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E71CCA653800466F74 /* 刘伟宁.jpg */; };
+		C287EA1E1CCA653800466F74 /* 刘兵爽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E81CCA653800466F74 /* 刘兵爽.jpg */; };
+		C287EA1F1CCA653800466F74 /* 刘延秋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9E91CCA653800466F74 /* 刘延秋.jpg */; };
+		C287EA201CCA653800466F74 /* 刘惠萍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9EA1CCA653800466F74 /* 刘惠萍.jpg */; };
+		C287EA211CCA653800466F74 /* 卢桥东.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9EB1CCA653800466F74 /* 卢桥东.jpg */; };
+		C287EA221CCA653800466F74 /* 史京平.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9EC1CCA653800466F74 /* 史京平.jpg */; };
+		C287EA231CCA653800466F74 /* 史京辉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9ED1CCA653800466F74 /* 史京辉.jpg */; };
+		C287EA241CCA653800466F74 /* 吴一波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9EE1CCA653800466F74 /* 吴一波.jpg */; };
+		C287EA251CCA653800466F74 /* 周吉彬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9EF1CCA653800466F74 /* 周吉彬.jpg */; };
+		C287EA261CCA653800466F74 /* 周灿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F01CCA653800466F74 /* 周灿.jpg */; };
+		C287EA271CCA653800466F74 /* 孙佳伟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F11CCA653800466F74 /* 孙佳伟.jpg */; };
+		C287EA281CCA653800466F74 /* 宋明岐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F21CCA653800466F74 /* 宋明岐.jpg */; };
+		C287EA291CCA653800466F74 /* 岳桂庆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F31CCA653800466F74 /* 岳桂庆.jpg */; };
+		C287EA2A1CCA653800466F74 /* 庄辉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F41CCA653800466F74 /* 庄辉.jpg */; };
+		C287EA2B1CCA653800466F74 /* 张延.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F51CCA653800466F74 /* 张延.jpg */; };
+		C287EA2C1CCA653800466F74 /* 张河山.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F61CCA653800466F74 /* 张河山.jpg */; };
+		C287EA2D1CCA653800466F74 /* 张达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F71CCA653800466F74 /* 张达.jpg */; };
+		C287EA2E1CCA653800466F74 /* 张鹏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F81CCA653800466F74 /* 张鹏.jpg */; };
+		C287EA2F1CCA653800466F74 /* 徐尧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9F91CCA653800466F74 /* 徐尧.jpg */; };
+		C287EA301CCA653800466F74 /* 李家琳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FA1CCA653800466F74 /* 李家琳.jpg */; };
+		C287EA311CCA653800466F74 /* 李建军.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FB1CCA653800466F74 /* 李建军.jpg */; };
+		C287EA321CCA653800466F74 /* 杨勇超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FC1CCA653800466F74 /* 杨勇超.jpg */; };
+		C287EA331CCA653800466F74 /* 杨旭东.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FD1CCA653800466F74 /* 杨旭东.jpg */; };
+		C287EA341CCA653800466F74 /* 樊盛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FE1CCA653800466F74 /* 樊盛.jpg */; };
+		C287EA351CCA653800466F74 /* 武传亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287E9FF1CCA653800466F74 /* 武传亮.jpg */; };
+		C287EA361CCA653800466F74 /* 沈亚琦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA001CCA653800466F74 /* 沈亚琦.jpg */; };
+		C287EA371CCA653800466F74 /* 温哲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA011CCA653800466F74 /* 温哲.jpg */; };
+		C287EA381CCA653800466F74 /* 潘文利.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA021CCA653800466F74 /* 潘文利.jpg */; };
+		C287EA391CCA653800466F74 /* 潘腾龙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA031CCA653800466F74 /* 潘腾龙.jpg */; };
+		C287EA3A1CCA653800466F74 /* 焦焕然.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA041CCA653800466F74 /* 焦焕然.jpg */; };
+		C287EA3B1CCA653800466F74 /* 王代鑫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA051CCA653800466F74 /* 王代鑫.jpg */; };
+		C287EA3C1CCA653800466F74 /* 王博然.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA061CCA653800466F74 /* 王博然.jpg */; };
+		C287EA3D1CCA653800466F74 /* 王星星.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA071CCA653800466F74 /* 王星星.jpg */; };
+		C287EA3E1CCA653800466F74 /* 王赛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA081CCA653800466F74 /* 王赛.jpg */; };
+		C287EA3F1CCA653800466F74 /* 王赫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA091CCA653800466F74 /* 王赫.jpg */; };
+		C287EA401CCA653800466F74 /* 王闯.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0A1CCA653800466F74 /* 王闯.jpg */; };
+		C287EA411CCA653800466F74 /* 田家旭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0B1CCA653800466F74 /* 田家旭.jpg */; };
+		C287EA421CCA653800466F74 /* 田芙祯.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0C1CCA653800466F74 /* 田芙祯.jpg */; };
+		C287EA431CCA653800466F74 /* 蔡晨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0D1CCA653800466F74 /* 蔡晨.jpg */; };
+		C287EA441CCA653800466F74 /* 许晟馗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0E1CCA653800466F74 /* 许晟馗.jpg */; };
+		C287EA451CCA653800466F74 /* 路飞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA0F1CCA653800466F74 /* 路飞.jpg */; };
+		C287EA461CCA653800466F74 /* 邢晓伟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA101CCA653800466F74 /* 邢晓伟.jpg */; };
+		C287EA471CCA653800466F74 /* 郝凤佩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA111CCA653800466F74 /* 郝凤佩.jpg */; };
+		C287EA481CCA653800466F74 /* 郝文举.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA121CCA653800466F74 /* 郝文举.jpg */; };
+		C287EA491CCA653800466F74 /* 郭旭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA131CCA653800466F74 /* 郭旭.jpg */; };
+		C287EA4A1CCA653800466F74 /* 闫文通.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA141CCA653800466F74 /* 闫文通.jpg */; };
+		C287EA4B1CCA653800466F74 /* 陈春丽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA151CCA653800466F74 /* 陈春丽.jpg */; };
+		C287EA4C1CCA653800466F74 /* 雷文豪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA161CCA653800466F74 /* 雷文豪.jpg */; };
+		C287EA4D1CCA653800466F74 /* 马泽坤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C287EA171CCA653800466F74 /* 马泽坤.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C287E9C21CCA438B00466F74 /* Swift - 通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - 通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C287E9C51CCA438B00466F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C287E9CA1CCA438B00466F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C287E9CC1CCA438B00466F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C287E9CF1CCA438B00466F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C287E9D11CCA438B00466F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C287E9D71CCA5A1500466F74 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C287E9D91CCA5A2700466F74 /* HandleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleData.swift; sourceTree = "<group>"; };
+		C287E9DB1CCA5A4800466F74 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		C287E9DD1CCA5A5600466F74 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
+		C287E9DF1CCA5AF200466F74 /* ContactViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
+		C287E9E21CCA653800466F74 /* contact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = contact.plist; sourceTree = "<group>"; };
+		C287E9E31CCA653800466F74 /* 乔春晓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乔春晓.jpg"; sourceTree = "<group>"; };
+		C287E9E41CCA653800466F74 /* 于成庆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "于成庆.jpg"; sourceTree = "<group>"; };
+		C287E9E51CCA653800466F74 /* 傅芝珍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "傅芝珍.jpg"; sourceTree = "<group>"; };
+		C287E9E61CCA653800466F74 /* 刘亚彬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘亚彬.jpg"; sourceTree = "<group>"; };
+		C287E9E71CCA653800466F74 /* 刘伟宁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘伟宁.jpg"; sourceTree = "<group>"; };
+		C287E9E81CCA653800466F74 /* 刘兵爽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘兵爽.jpg"; sourceTree = "<group>"; };
+		C287E9E91CCA653800466F74 /* 刘延秋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘延秋.jpg"; sourceTree = "<group>"; };
+		C287E9EA1CCA653800466F74 /* 刘惠萍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘惠萍.jpg"; sourceTree = "<group>"; };
+		C287E9EB1CCA653800466F74 /* 卢桥东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卢桥东.jpg"; sourceTree = "<group>"; };
+		C287E9EC1CCA653800466F74 /* 史京平.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "史京平.jpg"; sourceTree = "<group>"; };
+		C287E9ED1CCA653800466F74 /* 史京辉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "史京辉.jpg"; sourceTree = "<group>"; };
+		C287E9EE1CCA653800466F74 /* 吴一波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吴一波.jpg"; sourceTree = "<group>"; };
+		C287E9EF1CCA653800466F74 /* 周吉彬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "周吉彬.jpg"; sourceTree = "<group>"; };
+		C287E9F01CCA653800466F74 /* 周灿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "周灿.jpg"; sourceTree = "<group>"; };
+		C287E9F11CCA653800466F74 /* 孙佳伟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙佳伟.jpg"; sourceTree = "<group>"; };
+		C287E9F21CCA653800466F74 /* 宋明岐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宋明岐.jpg"; sourceTree = "<group>"; };
+		C287E9F31CCA653800466F74 /* 岳桂庆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "岳桂庆.jpg"; sourceTree = "<group>"; };
+		C287E9F41CCA653800466F74 /* 庄辉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "庄辉.jpg"; sourceTree = "<group>"; };
+		C287E9F51CCA653800466F74 /* 张延.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张延.jpg"; sourceTree = "<group>"; };
+		C287E9F61CCA653800466F74 /* 张河山.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张河山.jpg"; sourceTree = "<group>"; };
+		C287E9F71CCA653800466F74 /* 张达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张达.jpg"; sourceTree = "<group>"; };
+		C287E9F81CCA653800466F74 /* 张鹏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张鹏.jpg"; sourceTree = "<group>"; };
+		C287E9F91CCA653800466F74 /* 徐尧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "徐尧.jpg"; sourceTree = "<group>"; };
+		C287E9FA1CCA653800466F74 /* 李家琳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李家琳.jpg"; sourceTree = "<group>"; };
+		C287E9FB1CCA653800466F74 /* 李建军.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李建军.jpg"; sourceTree = "<group>"; };
+		C287E9FC1CCA653800466F74 /* 杨勇超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨勇超.jpg"; sourceTree = "<group>"; };
+		C287E9FD1CCA653800466F74 /* 杨旭东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨旭东.jpg"; sourceTree = "<group>"; };
+		C287E9FE1CCA653800466F74 /* 樊盛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "樊盛.jpg"; sourceTree = "<group>"; };
+		C287E9FF1CCA653800466F74 /* 武传亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武传亮.jpg"; sourceTree = "<group>"; };
+		C287EA001CCA653800466F74 /* 沈亚琦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "沈亚琦.jpg"; sourceTree = "<group>"; };
+		C287EA011CCA653800466F74 /* 温哲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "温哲.jpg"; sourceTree = "<group>"; };
+		C287EA021CCA653800466F74 /* 潘文利.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潘文利.jpg"; sourceTree = "<group>"; };
+		C287EA031CCA653800466F74 /* 潘腾龙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潘腾龙.jpg"; sourceTree = "<group>"; };
+		C287EA041CCA653800466F74 /* 焦焕然.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "焦焕然.jpg"; sourceTree = "<group>"; };
+		C287EA051CCA653800466F74 /* 王代鑫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王代鑫.jpg"; sourceTree = "<group>"; };
+		C287EA061CCA653800466F74 /* 王博然.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王博然.jpg"; sourceTree = "<group>"; };
+		C287EA071CCA653800466F74 /* 王星星.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王星星.jpg"; sourceTree = "<group>"; };
+		C287EA081CCA653800466F74 /* 王赛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王赛.jpg"; sourceTree = "<group>"; };
+		C287EA091CCA653800466F74 /* 王赫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王赫.jpg"; sourceTree = "<group>"; };
+		C287EA0A1CCA653800466F74 /* 王闯.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王闯.jpg"; sourceTree = "<group>"; };
+		C287EA0B1CCA653800466F74 /* 田家旭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "田家旭.jpg"; sourceTree = "<group>"; };
+		C287EA0C1CCA653800466F74 /* 田芙祯.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "田芙祯.jpg"; sourceTree = "<group>"; };
+		C287EA0D1CCA653800466F74 /* 蔡晨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蔡晨.jpg"; sourceTree = "<group>"; };
+		C287EA0E1CCA653800466F74 /* 许晟馗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "许晟馗.jpg"; sourceTree = "<group>"; };
+		C287EA0F1CCA653800466F74 /* 路飞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "路飞.jpg"; sourceTree = "<group>"; };
+		C287EA101CCA653800466F74 /* 邢晓伟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "邢晓伟.jpg"; sourceTree = "<group>"; };
+		C287EA111CCA653800466F74 /* 郝凤佩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郝凤佩.jpg"; sourceTree = "<group>"; };
+		C287EA121CCA653800466F74 /* 郝文举.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郝文举.jpg"; sourceTree = "<group>"; };
+		C287EA131CCA653800466F74 /* 郭旭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郭旭.jpg"; sourceTree = "<group>"; };
+		C287EA141CCA653800466F74 /* 闫文通.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "闫文通.jpg"; sourceTree = "<group>"; };
+		C287EA151CCA653800466F74 /* 陈春丽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈春丽.jpg"; sourceTree = "<group>"; };
+		C287EA161CCA653800466F74 /* 雷文豪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雷文豪.jpg"; sourceTree = "<group>"; };
+		C287EA171CCA653800466F74 /* 马泽坤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马泽坤.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C287E9BF1CCA438B00466F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C287E9B91CCA438B00466F74 = {
+			isa = PBXGroup;
+			children = (
+				C287E9C41CCA438B00466F74 /* Swift - 通讯录 */,
+				C287E9C31CCA438B00466F74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C287E9C31CCA438B00466F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C287E9C21CCA438B00466F74 /* Swift - 通讯录.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C287E9C41CCA438B00466F74 /* Swift - 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				C287E9E11CCA653800466F74 /* 个人信息照片 */,
+				C287E9C51CCA438B00466F74 /* AppDelegate.swift */,
+				C287E9D71CCA5A1500466F74 /* Model.swift */,
+				C287E9D91CCA5A2700466F74 /* HandleData.swift */,
+				C287E9DF1CCA5AF200466F74 /* ContactViewCell.swift */,
+				C287E9DD1CCA5A5600466F74 /* ListViewController.swift */,
+				C287E9DB1CCA5A4800466F74 /* DetailViewController.swift */,
+				C287E9C91CCA438B00466F74 /* Main.storyboard */,
+				C287E9CC1CCA438B00466F74 /* Assets.xcassets */,
+				C287E9CE1CCA438B00466F74 /* LaunchScreen.storyboard */,
+				C287E9D11CCA438B00466F74 /* Info.plist */,
+			);
+			path = "Swift - 通讯录";
+			sourceTree = "<group>";
+		};
+		C287E9E11CCA653800466F74 /* 个人信息照片 */ = {
+			isa = PBXGroup;
+			children = (
+				C287E9E21CCA653800466F74 /* contact.plist */,
+				C287E9E31CCA653800466F74 /* 乔春晓.jpg */,
+				C287E9E41CCA653800466F74 /* 于成庆.jpg */,
+				C287E9E51CCA653800466F74 /* 傅芝珍.jpg */,
+				C287E9E61CCA653800466F74 /* 刘亚彬.jpg */,
+				C287E9E71CCA653800466F74 /* 刘伟宁.jpg */,
+				C287E9E81CCA653800466F74 /* 刘兵爽.jpg */,
+				C287E9E91CCA653800466F74 /* 刘延秋.jpg */,
+				C287E9EA1CCA653800466F74 /* 刘惠萍.jpg */,
+				C287E9EB1CCA653800466F74 /* 卢桥东.jpg */,
+				C287E9EC1CCA653800466F74 /* 史京平.jpg */,
+				C287E9ED1CCA653800466F74 /* 史京辉.jpg */,
+				C287E9EE1CCA653800466F74 /* 吴一波.jpg */,
+				C287E9EF1CCA653800466F74 /* 周吉彬.jpg */,
+				C287E9F01CCA653800466F74 /* 周灿.jpg */,
+				C287E9F11CCA653800466F74 /* 孙佳伟.jpg */,
+				C287E9F21CCA653800466F74 /* 宋明岐.jpg */,
+				C287E9F31CCA653800466F74 /* 岳桂庆.jpg */,
+				C287E9F41CCA653800466F74 /* 庄辉.jpg */,
+				C287E9F51CCA653800466F74 /* 张延.jpg */,
+				C287E9F61CCA653800466F74 /* 张河山.jpg */,
+				C287E9F71CCA653800466F74 /* 张达.jpg */,
+				C287E9F81CCA653800466F74 /* 张鹏.jpg */,
+				C287E9F91CCA653800466F74 /* 徐尧.jpg */,
+				C287E9FA1CCA653800466F74 /* 李家琳.jpg */,
+				C287E9FB1CCA653800466F74 /* 李建军.jpg */,
+				C287E9FC1CCA653800466F74 /* 杨勇超.jpg */,
+				C287E9FD1CCA653800466F74 /* 杨旭东.jpg */,
+				C287E9FE1CCA653800466F74 /* 樊盛.jpg */,
+				C287E9FF1CCA653800466F74 /* 武传亮.jpg */,
+				C287EA001CCA653800466F74 /* 沈亚琦.jpg */,
+				C287EA011CCA653800466F74 /* 温哲.jpg */,
+				C287EA021CCA653800466F74 /* 潘文利.jpg */,
+				C287EA031CCA653800466F74 /* 潘腾龙.jpg */,
+				C287EA041CCA653800466F74 /* 焦焕然.jpg */,
+				C287EA051CCA653800466F74 /* 王代鑫.jpg */,
+				C287EA061CCA653800466F74 /* 王博然.jpg */,
+				C287EA071CCA653800466F74 /* 王星星.jpg */,
+				C287EA081CCA653800466F74 /* 王赛.jpg */,
+				C287EA091CCA653800466F74 /* 王赫.jpg */,
+				C287EA0A1CCA653800466F74 /* 王闯.jpg */,
+				C287EA0B1CCA653800466F74 /* 田家旭.jpg */,
+				C287EA0C1CCA653800466F74 /* 田芙祯.jpg */,
+				C287EA0D1CCA653800466F74 /* 蔡晨.jpg */,
+				C287EA0E1CCA653800466F74 /* 许晟馗.jpg */,
+				C287EA0F1CCA653800466F74 /* 路飞.jpg */,
+				C287EA101CCA653800466F74 /* 邢晓伟.jpg */,
+				C287EA111CCA653800466F74 /* 郝凤佩.jpg */,
+				C287EA121CCA653800466F74 /* 郝文举.jpg */,
+				C287EA131CCA653800466F74 /* 郭旭.jpg */,
+				C287EA141CCA653800466F74 /* 闫文通.jpg */,
+				C287EA151CCA653800466F74 /* 陈春丽.jpg */,
+				C287EA161CCA653800466F74 /* 雷文豪.jpg */,
+				C287EA171CCA653800466F74 /* 马泽坤.jpg */,
+			);
+			path = "个人信息照片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C287E9C11CCA438B00466F74 /* Swift - 通讯录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C287E9D41CCA438B00466F74 /* Build configuration list for PBXNativeTarget "Swift - 通讯录" */;
+			buildPhases = (
+				C287E9BE1CCA438B00466F74 /* Sources */,
+				C287E9BF1CCA438B00466F74 /* Frameworks */,
+				C287E9C01CCA438B00466F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - 通讯录";
+			productName = "Swift - 通讯录";
+			productReference = C287E9C21CCA438B00466F74 /* Swift - 通讯录.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C287E9BA1CCA438B00466F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "蓝欧";
+				TargetAttributes = {
+					C287E9C11CCA438B00466F74 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C287E9BD1CCA438B00466F74 /* Build configuration list for PBXProject "Swift - 通讯录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C287E9B91CCA438B00466F74;
+			productRefGroup = C287E9C31CCA438B00466F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C287E9C11CCA438B00466F74 /* Swift - 通讯录 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C287E9C01CCA438B00466F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C287EA2E1CCA653800466F74 /* 张鹏.jpg in Resources */,
+				C287EA2B1CCA653800466F74 /* 张延.jpg in Resources */,
+				C287EA1E1CCA653800466F74 /* 刘兵爽.jpg in Resources */,
+				C287EA3A1CCA653800466F74 /* 焦焕然.jpg in Resources */,
+				C287EA1A1CCA653800466F74 /* 于成庆.jpg in Resources */,
+				C287EA211CCA653800466F74 /* 卢桥东.jpg in Resources */,
+				C287EA251CCA653800466F74 /* 周吉彬.jpg in Resources */,
+				C287EA401CCA653800466F74 /* 王闯.jpg in Resources */,
+				C287EA2D1CCA653800466F74 /* 张达.jpg in Resources */,
+				C287EA231CCA653800466F74 /* 史京辉.jpg in Resources */,
+				C287E9D01CCA438B00466F74 /* LaunchScreen.storyboard in Resources */,
+				C287EA2A1CCA653800466F74 /* 庄辉.jpg in Resources */,
+				C287EA4A1CCA653800466F74 /* 闫文通.jpg in Resources */,
+				C287EA471CCA653800466F74 /* 郝凤佩.jpg in Resources */,
+				C287EA291CCA653800466F74 /* 岳桂庆.jpg in Resources */,
+				C287EA201CCA653800466F74 /* 刘惠萍.jpg in Resources */,
+				C287EA421CCA653800466F74 /* 田芙祯.jpg in Resources */,
+				C287E9CD1CCA438B00466F74 /* Assets.xcassets in Resources */,
+				C287EA301CCA653800466F74 /* 李家琳.jpg in Resources */,
+				C287EA3E1CCA653800466F74 /* 王赛.jpg in Resources */,
+				C287EA451CCA653800466F74 /* 路飞.jpg in Resources */,
+				C287EA481CCA653800466F74 /* 郝文举.jpg in Resources */,
+				C287EA191CCA653800466F74 /* 乔春晓.jpg in Resources */,
+				C287EA311CCA653800466F74 /* 李建军.jpg in Resources */,
+				C287EA1C1CCA653800466F74 /* 刘亚彬.jpg in Resources */,
+				C287EA1B1CCA653800466F74 /* 傅芝珍.jpg in Resources */,
+				C287EA381CCA653800466F74 /* 潘文利.jpg in Resources */,
+				C287EA4B1CCA653800466F74 /* 陈春丽.jpg in Resources */,
+				C287EA3F1CCA653800466F74 /* 王赫.jpg in Resources */,
+				C287EA391CCA653800466F74 /* 潘腾龙.jpg in Resources */,
+				C287EA331CCA653800466F74 /* 杨旭东.jpg in Resources */,
+				C287EA271CCA653800466F74 /* 孙佳伟.jpg in Resources */,
+				C287EA371CCA653800466F74 /* 温哲.jpg in Resources */,
+				C287EA221CCA653800466F74 /* 史京平.jpg in Resources */,
+				C287EA461CCA653800466F74 /* 邢晓伟.jpg in Resources */,
+				C287EA3C1CCA653800466F74 /* 王博然.jpg in Resources */,
+				C287EA1D1CCA653800466F74 /* 刘伟宁.jpg in Resources */,
+				C287EA3D1CCA653800466F74 /* 王星星.jpg in Resources */,
+				C287EA241CCA653800466F74 /* 吴一波.jpg in Resources */,
+				C287EA2C1CCA653800466F74 /* 张河山.jpg in Resources */,
+				C287EA351CCA653800466F74 /* 武传亮.jpg in Resources */,
+				C287EA2F1CCA653800466F74 /* 徐尧.jpg in Resources */,
+				C287EA441CCA653800466F74 /* 许晟馗.jpg in Resources */,
+				C287EA3B1CCA653800466F74 /* 王代鑫.jpg in Resources */,
+				C287EA411CCA653800466F74 /* 田家旭.jpg in Resources */,
+				C287EA321CCA653800466F74 /* 杨勇超.jpg in Resources */,
+				C287EA4C1CCA653800466F74 /* 雷文豪.jpg in Resources */,
+				C287EA431CCA653800466F74 /* 蔡晨.jpg in Resources */,
+				C287EA4D1CCA653800466F74 /* 马泽坤.jpg in Resources */,
+				C287EA341CCA653800466F74 /* 樊盛.jpg in Resources */,
+				C287EA491CCA653800466F74 /* 郭旭.jpg in Resources */,
+				C287EA1F1CCA653800466F74 /* 刘延秋.jpg in Resources */,
+				C287E9CB1CCA438B00466F74 /* Main.storyboard in Resources */,
+				C287EA361CCA653800466F74 /* 沈亚琦.jpg in Resources */,
+				C287EA261CCA653800466F74 /* 周灿.jpg in Resources */,
+				C287EA181CCA653800466F74 /* contact.plist in Resources */,
+				C287EA281CCA653800466F74 /* 宋明岐.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C287E9BE1CCA438B00466F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C287E9D81CCA5A1500466F74 /* Model.swift in Sources */,
+				C287E9DA1CCA5A2700466F74 /* HandleData.swift in Sources */,
+				C287E9C61CCA438B00466F74 /* AppDelegate.swift in Sources */,
+				C287E9DE1CCA5A5600466F74 /* ListViewController.swift in Sources */,
+				C287E9DC1CCA5A4800466F74 /* DetailViewController.swift in Sources */,
+				C287E9E01CCA5AF200466F74 /* ContactViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C287E9C91CCA438B00466F74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C287E9CA1CCA438B00466F74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C287E9CE1CCA438B00466F74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C287E9CF1CCA438B00466F74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C287E9D21CCA438B00466F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C287E9D31CCA438B00466F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C287E9D51CCA438B00466F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C287E9D61CCA438B00466F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C287E9BD1CCA438B00466F74 /* Build configuration list for PBXProject "Swift - 通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C287E9D21CCA438B00466F74 /* Debug */,
+				C287E9D31CCA438B00466F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C287E9D41CCA438B00466F74 /* Build configuration list for PBXNativeTarget "Swift - 通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C287E9D51CCA438B00466F74 /* Debug */,
+				C287E9D61CCA438B00466F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C287E9BA1CCA438B00466F74 /* Project object */;
+}
